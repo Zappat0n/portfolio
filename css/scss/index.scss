@@ -1,17 +1,17 @@
 @import "./styles.scss";
 
 body {
-  background: black url("../assets/images/jeremy-thomas-pq2DJBntZW0-unsplash.jpg") no-repeat fixed center;
+  background: url("../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg") repeat fixed center;
   background-size: auto 100%;
 }
 
 nav a {
-  color: white;
+  color: $secundary;
 }
 
 h1 {
   color: $primary;
-  font: normal normal 700 5rem 'Robot', sans-serif;
+  font: normal normal 700 4rem 'Robot', sans-serif;
 }
 
 h2 {
@@ -20,4 +20,22 @@ h2 {
 
 p {
   font: normal normal 400 1rem/1.5rem 'Robot', sans-serif;
+}
+
+th {
+  font: normal normal 700 0.9rem 'Robot', sans-serif;
+  color: $primary;
+  border-top: 1px solid $secundary !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
+
+td {
+  font: normal normal 400 0.8rem 'Robot', sans-serif;
+  color: $secundary;
+  padding-bottom: 0.8rem !important;
+}
+
+tbody {
+  border-bottom: 1px solid $secundary !important;
 }
