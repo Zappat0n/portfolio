@@ -16,6 +16,17 @@ h2 {
   font: normal normal 500 2rem "Robot", sans-serif;
 }
 
+span {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 69px;
+  top: 237px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(50px);
+}
+
 p {
   font: normal normal 400 1rem/1.5rem "Robot", sans-serif;
 }
@@ -36,4 +47,8 @@ td {
 
 tbody {
   border-bottom: 1px solid #e5e5e5 !important;
+}
+
+footer i {
+  color: #e5e5e5;
 }
