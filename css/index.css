@@ -2,3 +2,20 @@ body {
   background: black url("../assets/images/jeremy-thomas-pq2DJBntZW0-unsplash.jpg") no-repeat fixed center;
   background-size: auto 100%;
 }
+
+nav a {
+  color: white;
+}
+
+h1 {
+  color: #9390ff;
+  font: normal normal 700 5rem "Robot", sans-serif;
+}
+
+h2 {
+  font: normal normal 500 2rem "Robot", sans-serif;
+}
+
+p {
+  font: normal normal 400 1rem/1.5rem "Robot", sans-serif;
+}
