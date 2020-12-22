@@ -1,14 +1,5 @@
 @import "./styles.scss";
 
-body {
-  background: url("../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg") repeat fixed center;
-  background-size: auto 100%;
-}
-
-a {
-  color: $secundary;
-}
-
 h1 {
   color: $primary;
   text-align: center;
@@ -21,21 +12,10 @@ h2 {
   font: normal normal 700 3rem 'Robot', sans-serif;
 }
 
-h3 {
-  color: $primary;
-  text-align: center;
-  font: normal normal 700 2rem 'Robot', sans-serif;
-}
-
 h4 {
   color: $secundary;
   text-align: center;
   font: normal normal 500 2rem 'Robot', sans-serif;
-}
-
-p {
-  color: $secundary;
-  font: normal normal 400 1rem/1.5rem 'Robot', sans-serif;
 }
 
 th {
@@ -62,103 +42,6 @@ footer i {
   color: $secundary;
 }
 
-.work {
-  .card-title {
-    color: $primary;
-  }
-
-  .card-text {
-    color: $secundary;
-  }
-}
-
-.button {
-  a {
-    &:hover {
-      color: $secundary;
-    }
-
-    text-decoration: none;
-  }
-
-  --offset: 10px;
-  --border-size: 2px;
-
-  font: normal normal 500 0.7rem 'Robot', sans-serif;
-  display: block;
-  position: relative;
-  padding: 1em;
-  appearance: none;
-  border: 0;
-  background: transparent;
-  color: $secundary;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  outline: none;
-  cursor: pointer;
-  border-radius: 0;
-  box-shadow: inset 0 0 0 var(--border-size) $primary;
-  //transition: background 0.8s ease;
-
-  &:hover {
-    background: $primary;//rgba(100, 100, 100, 1);
-    color: $secundary;
-  }
-
-  &__horizontal,
-  &__vertical {
-    position: absolute;
-    top: var(--horizontal-offset, 0);
-    right: var(--vertical-offset, 0);
-    bottom: var(--horizontal-offset, 0);
-    left: var(--vertical-offset, 0);
-    transition: transform 0.8s ease;
-    will-change: transform;
-
-    &::before {
-      content: '';
-      position: absolute;
-      border: inherit;
-    }
-  }
-
-  &__horizontal {
-    --vertical-offset: calc(var(--offset) * -1);
-
-    border-top: var(--border-size) solid $primary;
-    border-bottom: var(--border-size) solid $primary;
-
-    &::before {
-      top: calc(var(--vertical-offset) - var(--border-size));
-      bottom: calc(var(--vertical-offset) - var(--border-size));
-      left: calc(var(--vertical-offset) * -1);
-      right: calc(var(--vertical-offset) * -1);
-    }
-  }
-
-  &:hover &__horizontal {
-    transform: scaleX(0);
-  }
-
-  &__vertical {
-    --horizontal-offset: calc(var(--offset) * -1);
-
-    border-left: var(--border-size) solid $primary;
-    border-right: var(--border-size) solid $primary;
-
-    &::before {
-      top: calc(var(--horizontal-offset) * -1);
-      bottom: calc(var(--horizontal-offset) * -1);
-      left: calc(var(--horizontal-offset) - var(--border-size));
-      right: calc(var(--horizontal-offset) - var(--border-size));
-    }
-  }
-
-  &:hover &__vertical {
-    transform: scaleY(0);
-  }
-}
-
 .circle-1 {
   position: absolute;
   width: 150px;
@@ -175,14 +58,14 @@ footer i {
 
 @keyframes year-appear {
   0% {
-    filter: blur(40px);
+    filter: blur(36px);
   }
 
   50% {
-    filter: blur(48px);
+    filter: blur(50px);
   }
 
   100% {
-    filter: blur(40px);
+    filter: blur(36px);
   }
 }

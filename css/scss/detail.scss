@@ -1,0 +1,8 @@
+@import "./styles.scss";
+
+.card-img-top {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: 50% 0;
+}

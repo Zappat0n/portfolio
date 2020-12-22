@@ -101,70 +101,9 @@ p {
   transform: scaleY(0);
 }
 
-h1 {
-  color: #9390ff;
-  text-align: center;
-  font: normal normal 700 4rem "Robot", sans-serif;
-}
-
-h2 {
-  color: #9390ff;
-  text-align: left;
-  font: normal normal 700 3rem "Robot", sans-serif;
-}
-
-h4 {
-  color: #e5e5e5;
-  text-align: center;
-  font: normal normal 500 2rem "Robot", sans-serif;
-}
-
-th {
-  font: normal normal 700 0.9rem "Robot", sans-serif;
-  color: #9390ff;
-  text-align: center;
-  border-top: 1px solid #e5e5e5 !important;
-  padding-top: 0.8rem !important;
-  padding-bottom: 0.8rem !important;
-}
-
-td {
-  font: normal normal 400 0.8rem "Robot", sans-serif;
-  color: #e5e5e5;
-  text-align: center;
-  padding-bottom: 0.8rem !important;
-}
-
-tbody {
-  border-bottom: 1px solid #e5e5e5 !important;
-}
-
-footer i {
-  color: #e5e5e5;
-}
-
-.circle-1 {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 69px;
-  top: 237px;
-  background: #edecff;
-  border-radius: 50%;
-  filter: blur(50px);
-  animation: year-appear 4s ease-in;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-}
-
-@keyframes year-appear {
-  0% {
-    filter: blur(36px);
-  }
-  50% {
-    filter: blur(50px);
-  }
-  100% {
-    filter: blur(36px);
-  }
+.card-img-top {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: 50% 0;
 }
