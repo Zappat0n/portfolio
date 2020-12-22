@@ -17,17 +17,17 @@
   <script src="https://kit.fontawesome.com/56125eaeb9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="desktop-navbar w-100">
+    <ul class="nav justify-content-end pr-5 mr-5">
+      <li class="nav-item p-2"><a href="#portfolio">Portfolio</a></li>
+      <li class="nav-item p-2"><a href = "#about">About</a></li>
+      <li class="nav-item p-2"><a href = "#contact">Contact</a></li>
+      <li class="nav-item p-2"><a href = "#contact"><i class="fas fa-envelope text-transparent"></i></a></li>
+    </ul>
+  </nav>
   <header>
-    <nav class="desktop-navbar w-100">
-      <ul class="nav justify-content-end pr-5 mr-5">
-        <li class="nav-item p-2"><a href="#portfolio">Portfolio</a></li>
-        <li class="nav-item p-2"><a href = "#about">About</a></li>
-        <li class="nav-item p-2"><a href = "#contact">Contact</a></li>
-        <li class="nav-item p-2"><a href = "#contact"><i class="fas fa-envelope text-transparent"></i></a></li>
-      </ul>
-    </nav>
-    <h1 class = "text-center">Angel Barros</h1>
-    <h2 class="text-center text-white pb-4">Full Stack Developer</h2>
+    <h1>Angel Barros</h1>
+    <h3 class="text-center text-white pb-4">Full Stack Developer</h3>
     <span class="circle-1"></span>
 
     <p class="text-white w-50 m-auto text-center pb-5">
@@ -71,9 +71,9 @@
         </tr>
       </tbody>
     </table>
-    <section class="bottom-navbar d-flex space justify-content-around align-baseline">
+    <section class="bottom-navbar d-flex space justify-content-around align-baseline pb-5">
       <div class="p-5">
-        <a class="p-3" href="#">Work 🠓</a>
+        <a class="p-3" href="#works">Work 🠓</a>
       </div>
       <nav class="desktop-navbar w-50 m-auto">
         <ul class="nav justify-content-center p-4">
@@ -84,10 +84,48 @@
         </ul>
       </nav>
       <div class="p-5">
-        <a class="p-3" href="#">🠓 Work</a>
+        <a class="p-3" href="#works">🠓 Work</a>
       </div>
     </section>
   </header>
+  <main>
+    <section class="works p-5" id="works">
+      <h2 class = "border-bottom pb-4">My recent work</h2>
+      <div class="work card w-100 my-4 bg-dark">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-6">
+              <img class="card-img w-100" src="./assets/images/Screenshot-tic-tac-toe.png" alt="Card image cap">
+            </div>
+            <div class="col-6 p-3">
+              <h5 class="card-title">Tic-tac-toe game</h5>
+              <p class="card-text">A tic-tac-toe game for the terminal developed in Ruby</p>
+              <p class="card-text"><strong>Ruby | Git | Gitflow | Rubocop | VS Code</strong></p>
+              <button class="button" >
+                <a href="https://github.com/Zappat0n/tic-tac-toe">See Project</a>
+                <div class="button__horizontal"></div>
+                <div class="button__vertical"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="work card w-100 my-4 bg-dark">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-6 p-3">
+              <h5 class="card-title">Tic-tac-toe game</h5>
+              <p class="card-text">A tic-tac-toe game for the terminal developed in Ruby</p>
+              <p class="card-text"><strong>Ruby | Git | Gitflow | Rubocop | VS Code</strong></p>
+            </div>
+            <div class="col-6">
+              <img class="card-img w-100" src="./assets/images/Screenshot-tic-tac-toe.png" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
