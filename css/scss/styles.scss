@@ -14,6 +14,11 @@ h3 {
 
 a {
   color: $secundary;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 p {
@@ -38,8 +43,6 @@ p {
     &:hover {
       color: $secundary;
     }
-
-    text-decoration: none;
   }
 
   --offset: 10px;
