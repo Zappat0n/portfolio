@@ -3,7 +3,7 @@ body {
   background-size: auto 100%;
 }
 
-nav a {
+a {
   color: #e5e5e5;
 }
 
@@ -23,6 +23,7 @@ p {
 th {
   font: normal normal 700 0.9rem "Robot", sans-serif;
   color: #9390ff;
+  text-align: center;
   border-top: 1px solid #e5e5e5 !important;
   padding-top: 0.8rem !important;
   padding-bottom: 0.8rem !important;
