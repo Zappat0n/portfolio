@@ -18,17 +18,6 @@ h2 {
   font: normal normal 500 2rem 'Robot', sans-serif;
 }
 
-span {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  left: 69px;
-  top: 237px;
-  background: #edecff;
-  border-radius: 50%;
-  filter: blur(50px);
-}
-
 p {
   font: normal normal 400 1rem/1.5rem 'Robot', sans-serif;
 }
@@ -44,6 +33,7 @@ th {
 td {
   font: normal normal 400 0.8rem 'Robot', sans-serif;
   color: $secundary;
+  text-align: center;
   padding-bottom: 0.8rem !important;
 }
 
@@ -53,4 +43,32 @@ tbody {
 
 footer i {
   color: $secundary;
+}
+
+.circle-1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 69px;
+  top: 237px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(50px);
+  animation: year-appear 5s ease-in;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes year-appear {
+  0% {
+    filter: blur(40px);
+  }
+
+  50% {
+    filter: blur(52px);
+  }
+
+  100% {
+    filter: blur(40px);
+  }
 }
