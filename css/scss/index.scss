@@ -75,12 +75,38 @@ footer i {
   background: #edecff;
   border-radius: 50%;
   filter: blur(50px);
-  animation: year-appear 4s ease-in;
+  animation: shine 4s ease-in;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
 
-@keyframes year-appear {
+.circle-2 {
+  position: absolute;
+  width: 226px;
+  height: 226px;
+  left: 1143px;
+  top: 546px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(50px);
+  animation: shine 4s ease-in;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+.spiral-1 {
+  position: absolute;
+  width: 57.53px;
+  height: 700.92px;
+  right: -232px;
+  top: 79.12px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: rotate(-36.38deg);
+
+}
+
+@keyframes shine {
   0% {
     filter: blur(36px);
   }

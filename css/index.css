@@ -6,7 +6,12 @@ body {
 h3 {
   color: #9390ff;
   text-align: center;
-  font: normal normal 700 2rem "Robot", sans-serif;
+  font: normal normal 700 1.5rem "Robot", sans-serif;
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
 
 a {
@@ -17,12 +22,14 @@ a:hover {
   text-decoration: none;
 }
 
-p {
+p,
+li {
   color: #e5e5e5;
   font: normal normal 400 0.8rem/1.5rem "Robot", sans-serif;
 }
 @media (min-width: 1024px) {
-  p {
+  p,
+li {
     font-size: 1rem;
   }
 }
@@ -187,12 +194,37 @@ footer i {
   background: #edecff;
   border-radius: 50%;
   filter: blur(50px);
-  animation: year-appear 4s ease-in;
+  animation: shine 4s ease-in;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
 
-@keyframes year-appear {
+.circle-2 {
+  position: absolute;
+  width: 226px;
+  height: 226px;
+  left: 1143px;
+  top: 546px;
+  background: #edecff;
+  border-radius: 50%;
+  filter: blur(50px);
+  animation: shine 4s ease-in;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+.spiral-1 {
+  position: absolute;
+  width: 57.53px;
+  height: 700.92px;
+  right: -232px;
+  top: 79.12px;
+  background: #edecff;
+  filter: blur(50px);
+  transform: rotate(-36.38deg);
+}
+
+@keyframes shine {
   0% {
     filter: blur(36px);
   }
