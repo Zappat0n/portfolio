@@ -19,7 +19,12 @@ a:hover {
 
 p {
   color: #e5e5e5;
-  font: normal normal 400 1rem/1.5rem "Robot", sans-serif;
+  font: normal normal 400 0.8rem/1.5rem "Robot", sans-serif;
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 1rem;
+  }
 }
 
 .card {

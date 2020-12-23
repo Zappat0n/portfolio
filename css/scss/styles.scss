@@ -23,7 +23,11 @@ a {
 
 p {
   color: $secundary;
-  font: normal normal 400 1rem/1.5rem 'Robot', sans-serif;
+  font: normal normal 400 0.8rem/1.5rem 'Robot', sans-serif;
+
+  @media (min-width: 1024px) {
+    font-size: 1rem;
+  }
 }
 
 .card {
