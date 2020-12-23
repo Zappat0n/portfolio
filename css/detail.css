@@ -6,7 +6,12 @@ body {
 h3 {
   color: #9390ff;
   text-align: center;
-  font: normal normal 700 2rem "Robot", sans-serif;
+  font: normal normal 700 1.5rem "Robot", sans-serif;
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 2rem;
+  }
 }
 
 a {
@@ -17,9 +22,16 @@ a:hover {
   text-decoration: none;
 }
 
-p {
+p,
+li {
   color: #e5e5e5;
-  font: normal normal 400 1rem/1.5rem "Robot", sans-serif;
+  font: normal normal 400 0.8rem/1.5rem "Robot", sans-serif;
+}
+@media (min-width: 1024px) {
+  p,
+li {
+    font-size: 1rem;
+  }
 }
 
 .card {
@@ -101,6 +113,15 @@ p {
 }
 .button:hover .button__vertical {
   transform: scaleY(0);
+}
+
+.card {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 75%;
+  }
 }
 
 .card-img-top {
