@@ -23,7 +23,8 @@ p {
 }
 
 .card {
-  background-color: rgba(0, 140, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
 }
 
 .card-title {
