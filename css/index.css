@@ -108,6 +108,15 @@ p {
   transform: scaleY(0);
 }
 
+header {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  header {
+    width: 50%;
+  }
+}
+
 h1 {
   color: #9390ff;
   text-align: center;

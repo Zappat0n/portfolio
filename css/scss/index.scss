@@ -1,5 +1,13 @@
 @import "./styles.scss";
 
+header {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+
 h1 {
   color: $primary;
   text-align: center;
@@ -18,7 +26,6 @@ h2 {
   @media (min-width: 1024px) {
     font-size: 3rem;
   }
-
 }
 
 h4 {
