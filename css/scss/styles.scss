@@ -9,7 +9,7 @@ body {
 h3 {
   color: $primary;
   text-align: center;
-  font: normal normal 700 1.5rem 'Robot', sans-serif;
+  font: normal normal 700 1.5rem 'Roboto', sans-serif;
 
   @media (min-width: 1024px) {
     font-size: 2rem;
@@ -28,7 +28,7 @@ a {
 p,
 li {
   color: $secundary;
-  font: normal normal 400 0.8rem/1.5rem 'Robot', sans-serif;
+  font: normal normal 400 0.8rem/1.5rem 'Roboto', sans-serif;
 
   @media (min-width: 1024px) {
     font-size: 1rem;
@@ -58,7 +58,7 @@ li {
   --offset: 10px;
   --border-size: 2px;
 
-  font: normal normal 500 0.7rem 'Robot', sans-serif;
+  font: normal normal 500 0.7rem 'Roboto', sans-serif;
   display: block;
   position: relative;
   padding: 1em;
