@@ -81,17 +81,19 @@ footer i {
 }
 
 .circle-2 {
-  position: absolute;
-  width: 226px;
-  height: 226px;
-  left: 1143px;
-  top: 546px;
-  background: #edecff;
-  border-radius: 50%;
-  filter: blur(50px);
-  animation: shine 4s ease-in;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
+  @media (min-width: 1024px) {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 75%;
+    top: 546px;
+    background: #edecff;
+    border-radius: 50%;
+    filter: blur(50px);
+    animation: shine 4s ease-in;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
 }
 
 .spiral-1 {
