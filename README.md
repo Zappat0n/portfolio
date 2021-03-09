@@ -18,7 +18,7 @@ Buttons effects by [Tobias Reich](https://codepen.io/electerious)
 
 ## Live Demo
 
-[Live Demo Link](https://zappat0n.github.io/education2020/)
+[Live Demo Link](https://zappat0n.github.io/portfolio/)
 
 ## Designed With
 - HTML
