@@ -21,28 +21,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Icons  -->
-  <link rel="icon" type="image/png" href="./assets/images/blue-white.png">
-  <script src="./index.js"></script>
+  <link rel="icon" type="image/png" href="./images/blue-white.png">
 </head>
 <body>
-  <nav class="desktop-navbar w-100 d-flex flex-row justify-content-center justify-content-lg-end pr-lg-5 pt-3">
-    <div class="card d-flex flex-row">
-    <form action="#works" method="get">
-      <button class="button m-4" type="submit">
-        Portfolio
-        <span class="button__horizontal"></span>
-        <span class="button__vertical"></span>
-      </button>
-    </form>
-    <form action="mailto:albarros1973@gmail.com" method="get">
-      <button class="button m-4" type="submit">
-        Contact
-        <span class="button__horizontal"></span>
-        <span class="button__vertical"></span>
-      </button>
-    </form>
-    </div>
-  </nav>
   <header class="card mx-auto mt-3">
     <h1 class="pt-4">Angel Barros</h1>
     <h4 class="text-center pb-4">Full Stack Developer</h4>
@@ -101,27 +82,35 @@
   <main>
     <section class="works p-3 p-md-5" id="works">
       <h2 class = "border-bottom pb-3">My recent work</h2>
-      <div class="work card mt-5 w-100 my-4">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <img class="card-img w-100" src="./assets/images/Screenshot-tic-tac-toe.png" alt="Tic-tac-toe image">
-            </div>
-            <div class="col-12 col-md-6 p-3">
-              <h5 class="card-title">Tic-tac-toe game</h5>
-              <p class="card-text card-description">A tic-tac-toe game for the terminal developed in Ruby</p>
-              <p class="card-text card-technologies"><strong>Ruby | Git | Gitflow | Rubocop | VS Code</strong></p>
-              <form class = "form-project-github" action="./details/detail-tic-tac-toe.html" method="get">
-                <button class="button m-4" type="submit">
-                  GitHub
-                  <span class="button__horizontal"></span>
-                  <span class="button__vertical"></span>
-                </button>
-              </form>
+      <div class="display-project">
+        <button class="move-left move-button">
+          <i class="fas fa-caret-left move-icon"></i>
+        </button>
+        <div class="work card mt-5 w-100 my-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <img class="card-img w-100" src="./images/Screenshot-tic-tac-toe.png" alt="Tic-tac-toe image">
+              </div>
+              <div class="col-12 col-md-6 p-3">
+                <h5 class="card-title"></h5>
+                <p class="card-text card-description">description</p>
+                <p class="card-text card-technologies"><strong></strong></p>
+                <form class = "form-project-github" action="./details/detail-tic-tac-toe.html" method="get">
+                  <button class="button m-4" type="submit">
+                    GitHub
+                    <span class="button__horizontal"></span>
+                    <span class="button__vertical"></span>
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        <button class="move-right move-button">
+          <i class="fas fa-caret-right move-icon"></i>
+        </button>
+    </div>
     </section>
   </main>
   <footer>
@@ -135,6 +124,7 @@
     </nav>
   </footer>
 
+  <script src="./main.js"></script>
   <!-- Icons  -->
   <script src="https://kit.fontawesome.com/56125eaeb9.js" crossorigin="anonymous"></script>
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
