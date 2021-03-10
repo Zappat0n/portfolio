@@ -11,7 +11,7 @@ header {
 h1 {
   color: $primary;
   text-align: center;
-  font: normal normal 700 2rem 'Roboto', sans-serif;
+  font: normal normal 700 2rem $font, sans-serif;
 
   @media (min-width: 1024px) {
     font-size: 4rem;
@@ -21,7 +21,7 @@ h1 {
 h2 {
   color: $primary;
   text-align: left;
-  font: normal normal 700 2rem 'Roboto', sans-serif;
+  font: normal normal 700 2rem $font, sans-serif;
 
   @media (min-width: 1024px) {
     font-size: 3rem;
@@ -31,7 +31,7 @@ h2 {
 h4 {
   color: $secundary;
   text-align: center;
-  font: normal normal 500 1.5rem 'Roboto', sans-serif;
+  font: normal normal 500 1.5rem $font, sans-serif;
 
   @media (min-width: 1024px) {
     font-size: 2rem;
@@ -39,7 +39,7 @@ h4 {
 }
 
 th {
-  font: normal normal 700 0.9rem 'Roboto', sans-serif;
+  font: normal normal 700 0.9rem $font, sans-serif;
   color: $primary;
   text-align: center;
   border-top: 1px solid $secundary !important;
@@ -48,7 +48,7 @@ th {
 }
 
 td {
-  font: normal normal 400 0.8rem 'Roboto', sans-serif;
+  font: normal normal 400 0.8rem $font, sans-serif;
   color: $secundary;
   text-align: center;
   padding-bottom: 0.8rem !important;
@@ -125,6 +125,10 @@ footer i {
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  h5 {
+    font: $font;
+  }
 
   .move-button {
     background: transparent;
