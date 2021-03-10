@@ -1,5 +1,5 @@
 body {
-  background: url("../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg") repeat fixed center;
+  background: url("../images/kai-pilger-Ef6iL87-vOA-unsplash.jpg") repeat fixed center;
   background-size: auto 100%;
   width: 100%;
 }
@@ -237,4 +237,17 @@ footer i {
   100% {
     filter: blur(36px);
   }
+}
+.display-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.display-project .move-button {
+  background: transparent;
+  border: none;
+}
+.display-project .move-icon {
+  font-size: 3rem;
+  color: white;
 }
