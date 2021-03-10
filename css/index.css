@@ -251,3 +251,12 @@ footer i {
   font-size: 3rem;
   color: white;
 }
+
+.forms {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-none {
+  display: none;
+}
