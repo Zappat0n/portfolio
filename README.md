@@ -6,7 +6,7 @@ This is the first version of my personal portfolio.
 
 ## Content
 
-![screenshot](./assets/images/screenshot.png)
+![screenshot](./dist/images/screenshot.png)
 
 It has a main page with a small description, and link to access the portfolio.
 
