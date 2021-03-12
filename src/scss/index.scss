@@ -14,7 +14,7 @@ h1 {
   font: normal normal 700 2rem $font;
 
   @media (min-width: 1024px) {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -43,19 +43,21 @@ th {
   color: $primary;
   text-align: center;
   border-top: 1px solid $secundary !important;
-  padding-top: 0.8rem !important;
-  padding-bottom: 0.8rem !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.2rem !important;
 }
 
 td {
   font: normal normal 400 0.8rem $font;
   color: $secundary;
   text-align: center;
-  padding-bottom: 0.8rem !important;
+  padding-bottom: 0rem !important;
 }
 
 tbody {
   border-bottom: 1px solid $secundary !important;
+  padding-bottom: 0.2rem !important;
+
 }
 
 footer i {
@@ -71,7 +73,7 @@ footer i {
   width: 150px;
   height: 150px;
   left: 69px;
-  top: 237px;
+  top: 137px;
   background: #edecff;
   border-radius: 50%;
   filter: blur(50px);
@@ -86,7 +88,7 @@ footer i {
     width: 226px;
     height: 226px;
     left: 75%;
-    top: 546px;
+    top: 346px;
     background: #edecff;
     border-radius: 50%;
     filter: blur(50px);
